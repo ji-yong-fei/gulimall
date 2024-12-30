@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="099075a7-1599-4f24-9fa7-5977d1717c2d" name="Changes" comment="分布式组件开发完毕111" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\software\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../software/maven/apache-maven-3.8.8" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2761gj7eQCChAoECGcO4HwLj6fb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/project/gulimall/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ed54e43faebaf485daad271d048f7af1&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gulimall-member/src/main/resources" />
+      <recent name="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product" />
+      <recent name="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl" />
+      <recent name="$PROJECT_DIR$/gulimall-common/src/main/resources" />
+      <recent name="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.common.utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GulimallGatewayApplication">
+    <configuration name="GulimallProductApplicationTests.testOss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimall-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gulimall.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.gulimall.product" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gulimall.product.GulimallProductApplicationTests" />
+      <option name="METHOD_NAME" value="testOss" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallThirdPartyApplicationTests.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimall-third-party" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gulimall.thirdparty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.gulimall.thirdparty" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gulimall.thirdparty.GulimallThirdPartyApplicationTests" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallCouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gulimall-coupon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.coupon.GulimallCouponApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="gulimall-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.gateway.GulimallGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallMemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.member.GulimallMemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.order.GulimallOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="gulimall-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.product.GulimallProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallThirdPartyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-third-party" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.thirdparty.GulimallThirdPartyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallWareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="gulimall-ware" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.ware.GulimallWareApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="renren-fast" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.renren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.GulimallProductApplicationTests.testOss" />
+      <item itemvalue="JUnit.GulimallThirdPartyApplicationTests.testUpload" />
+      <item itemvalue="Spring Boot.GulimallMemberApplication" />
+      <item itemvalue="Spring Boot.GulimallThirdPartyApplication" />
+      <item itemvalue="Spring Boot.GulimallOrderApplication" />
+      <item itemvalue="Spring Boot.GulimallCouponApplication" />
+      <item itemvalue="Spring Boot.GulimallWareApplication" />
+      <item itemvalue="Spring Boot.GulimallGatewayApplication" />
+      <item itemvalue="Spring Boot.GulimallProductApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GulimallGatewayApplication" />
+        <item itemvalue="Spring Boot.RenrenApplication" />
+        <item itemvalue="Spring Boot.GulimallProductApplication" />
+        <item itemvalue="JUnit.GulimallThirdPartyApplicationTests.testUpload" />
+        <item itemvalue="JUnit.GulimallProductApplicationTests.testOss" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="099075a7-1599-4f24-9fa7-5977d1717c2d" name="Changes" comment="" />
+      <created>1648625852580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648625852580</updated>
+      <workItem from="1648625858012" duration="30319000" />
+      <workItem from="1648699073726" duration="18674000" />
+      <workItem from="1648783688111" duration="3868000" />
+      <workItem from="1649298127986" duration="1300000" />
+      <workItem from="1649311732336" duration="5088000" />
+      <workItem from="1650022897293" duration="11300000" />
+      <workItem from="1650463567929" duration="105000" />
+      <workItem from="1650534861425" duration="930000" />
+      <workItem from="1694077834482" duration="8138000" />
+      <workItem from="1694483690819" duration="598000" />
+      <workItem from="1694500239467" duration="21028000" />
+      <workItem from="1696818694639" duration="2894000" />
+      <workItem from="1696918508802" duration="3171000" />
+      <workItem from="1697683205587" duration="848000" />
+      <workItem from="1697684092214" duration="1326000" />
+      <workItem from="1698303661756" duration="12053000" />
+      <workItem from="1698657422717" duration="2870000" />
+      <workItem from="1707565122280" duration="645000" />
+      <workItem from="1729764559337" duration="6791000" />
+      <workItem from="1729995486618" duration="1955000" />
+      <workItem from="1730034108834" duration="239000" />
+      <workItem from="1730034356225" duration="1523000" />
+      <workItem from="1730037183546" duration="2589000" />
+      <workItem from="1730043358741" duration="26160000" />
+      <workItem from="1730607189843" duration="239000" />
+      <workItem from="1730607436347" duration="26869000" />
+      <workItem from="1730907250667" duration="813000" />
+      <workItem from="1731327235835" duration="17792000" />
+      <workItem from="1732019884045" duration="6197000" />
+      <workItem from="1733624420776" duration="2960000" />
+      <workItem from="1735307798978" duration="279000" />
+    </task>
+    <task id="LOCAL-00001" summary="20230907再次开启谷粒商城！">
+      <option name="closed" value="true" />
+      <created>1694078383803</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694078383803</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交冲突">
+      <option name="closed" value="true" />
+      <created>1694079305536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694079305536</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交冲突">
+      <option name="closed" value="true" />
+      <created>1694079661199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694079661199</updated>
+    </task>
+    <task id="LOCAL-00004" summary="全部代码提交">
+      <option name="closed" value="true" />
+      <created>1694079885092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694079885092</updated>
+    </task>
+    <task id="LOCAL-00005" summary="nacos初始提交">
+      <option name="closed" value="true" />
+      <created>1695111704695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695111704695</updated>
+    </task>
+    <task id="LOCAL-00006" summary="分布式组件开发完毕">
+      <option name="closed" value="true" />
+      <created>1697683680915</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697683680915</updated>
+    </task>
+    <task id="LOCAL-00007" summary="分布式组件开发完毕111">
+      <option name="closed" value="true" />
+      <created>1729765043373</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729765043373</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20230907再次开启谷粒商城！" />
+    <MESSAGE value="提交冲突" />
+    <MESSAGE value="全部代码提交" />
+    <MESSAGE value="nacos初始提交" />
+    <MESSAGE value="分布式组件开发完毕" />
+    <MESSAGE value="分布式组件开发完毕111" />
+    <option name="LAST_COMMIT_MESSAGE" value="分布式组件开发完毕111" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
