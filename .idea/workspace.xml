@@ -4,9 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="099075a7-1599-4f24-9fa7-5977d1717c2d" name="Changes" comment="分布式组件开发完毕111">
+    <list default="true" id="099075a7-1599-4f24-9fa7-5977d1717c2d" name="Changes" comment="#谷粒商城">
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/exception/BizCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/exception/NoStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/exception/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/SkuHasStockVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/es/SkuEsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/feign/SearchFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/feign/WareFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/SkuHasStockVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/constant/ProductConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/constant/ProductConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/exception/BizCodeEnume.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/exception/BizCodeEnume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/SpuInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/SpuInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/AttrDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/AttrDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SpuInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SpuInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/exception/GulimallExceptionControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/exception/GulimallExceptionControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/AttrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/AttrService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SpuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SpuInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/AttrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SpuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SpuInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/AttrDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/AttrDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/SpuInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/SpuInfoDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/test/java/com/atguigu/gulimall/product/GulimallProductApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/GulimallSearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/GulimallSearchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/config/GulimailSessionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/config/GulimailSessionConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/config/GulimallElasticSearchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/config/GulimallElasticSearchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/constant/EsConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/constant/EsConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/controller/ElasticSaveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/controller/ElasticSaveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/feign/ProductFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/feign/ProductFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/MallSearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/MallSearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/ProductSaveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/ProductSaveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/impl/MallSearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/impl/MallSearchServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/impl/ProductSaveServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/impl/ProductSaveServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/vo/SearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/vo/SearchResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/test/java/com/yxj/gulimall/search/GulimallSearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/test/java/com/atguigu/gulimall/search/GulimallSearchApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareSkuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareSkuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/WareSkuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/WareSkuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareSkuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareSkuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareSkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareSkuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper/ware/WareSkuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper/ware/WareSkuDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +84,16 @@
         <option name="url" value="https://github.com/ji-yong-fei/gulimall.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/constant/WareConstant.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/PageUtils.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/PurchaseDetailController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/PurchaseDetailService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/PurchaseDetailServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/PurchaseServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper/ware/PurchaseDao.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,8 +127,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/project/gulimall/pom.xml",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "D:/project/gulimall/gulimall-product/src/main/java/com/atguigu/gulimall/product/feign",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,13 +144,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/gulimall-member/src/main/resources" />
-      <recent name="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product" />
-      <recent name="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl" />
-      <recent name="$PROJECT_DIR$/gulimall-common/src/main/resources" />
-      <recent name="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common" />
+      <recent name="D:\project\gulimall\gulimall-product\src\main\java\com\atguigu\gulimall\product\feign" />
+      <recent name="D:\project\gulimall\gulimall-common\src\main\java\com\atguigu\common\exception" />
+      <recent name="D:\project\gulimall\gulimall-ware\src\main\java\com\atguigu\gulimall\ware\vo" />
+      <recent name="D:\project\gulimall\gulimall-common\src\main\java\com\atguigu\common\to\es" />
+      <recent name="D:\project\gulimall" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.common.to" />
       <recent name="com.atguigu.common.utils" />
     </key>
   </component>
@@ -100,34 +162,34 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GulimallGatewayApplication">
-    <configuration name="GulimallProductApplicationTests.testOss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gulimall-product" />
+  <component name="RunManager" selected="Spring Boot.GulimallSearchApplication">
+    <configuration name="GulimallSearchApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimall-search" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.gulimall.product.*" />
+          <option name="PATTERN" value="com.atguigu.gulimall.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.gulimall.product" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.gulimall.product.GulimallProductApplicationTests" />
-      <option name="METHOD_NAME" value="testOss" />
+      <option name="PACKAGE_NAME" value="com.atguigu.gulimall.search" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gulimall.search.GulimallSearchApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GulimallThirdPartyApplicationTests.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gulimall-third-party" />
+    <configuration name="GulimallSearchApplicationTests.indexData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimall-search" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.gulimall.thirdparty.*" />
+          <option name="PATTERN" value="com.atguigu.gulimall.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.gulimall.thirdparty" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.gulimall.thirdparty.GulimallThirdPartyApplicationTests" />
-      <option name="METHOD_NAME" value="testUpload" />
+      <option name="PACKAGE_NAME" value="com.atguigu.gulimall.search" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gulimall.search.GulimallSearchApplicationTests" />
+      <option name="METHOD_NAME" value="indexData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,6 +230,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GulimallSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.search.GulimallSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GulimallThirdPartyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gulimall-third-party" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.thirdparty.GulimallThirdPartyApplication" />
@@ -198,8 +267,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GulimallProductApplicationTests.testOss" />
-      <item itemvalue="JUnit.GulimallThirdPartyApplicationTests.testUpload" />
+      <item itemvalue="JUnit.GulimallSearchApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.GulimallSearchApplicationTests.indexData" />
+      <item itemvalue="Spring Boot.GulimallSearchApplication" />
       <item itemvalue="Spring Boot.GulimallMemberApplication" />
       <item itemvalue="Spring Boot.GulimallThirdPartyApplication" />
       <item itemvalue="Spring Boot.GulimallOrderApplication" />
@@ -211,11 +281,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GulimallProductApplication" />
         <item itemvalue="Spring Boot.GulimallGatewayApplication" />
         <item itemvalue="Spring Boot.RenrenApplication" />
-        <item itemvalue="Spring Boot.GulimallProductApplication" />
-        <item itemvalue="JUnit.GulimallThirdPartyApplicationTests.testUpload" />
-        <item itemvalue="JUnit.GulimallProductApplicationTests.testOss" />
+        <item itemvalue="JUnit.GulimallSearchApplicationTests.indexData" />
+        <item itemvalue="JUnit.GulimallSearchApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +328,8 @@
       <workItem from="1732019884045" duration="6197000" />
       <workItem from="1733624420776" duration="2960000" />
       <workItem from="1735307798978" duration="279000" />
-      <workItem from="1735652184481" duration="1822000" />
+      <workItem from="1735652184481" duration="3088000" />
+      <workItem from="1736434836130" duration="23454000" />
     </task>
     <task id="LOCAL-00001" summary="20230907再次开启谷粒商城！">
       <option name="closed" value="true" />
@@ -323,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1735652411782</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="#谷粒商城">
+      <created>1735655691145</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735655691145</updated>
+    </task>
+    <task id="LOCAL-00010" summary="#谷粒商城">
+      <created>1736682942095</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736682942095</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +420,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -359,7 +449,8 @@
     <MESSAGE value="nacos初始提交" />
     <MESSAGE value="分布式组件开发完毕" />
     <MESSAGE value="分布式组件开发完毕111" />
-    <option name="LAST_COMMIT_MESSAGE" value="分布式组件开发完毕111" />
+    <MESSAGE value="#谷粒商城" />
+    <option name="LAST_COMMIT_MESSAGE" value="#谷粒商城" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
